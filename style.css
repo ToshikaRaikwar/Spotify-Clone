@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap');
+
+body{
+    background-color:rgb(215, 163, 245);
+}
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    font-family: 'Roboto Slab', serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height:60px;
+    background-color: black;
+    color:white;
+    align-items: center;
+}
+nav ul li{
+    padding:0 12px;
+}
+.first img{
+    width:50px;
+    height:50px;
+    padding: 0 8px;
+
+}
+.first{
+    display: flex;
+    align-items: center;
+    font-weight:bolder ;
+    font-size: 1.5rem ;
+    
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+}
+.bottom{
+    position:sticky;
+    height:80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+
+}
+.icons{
+    margin-top: 14px;
+    cursor: pointer;
+    size: 50px;
+}
+.container{
+    background-image: url('wp6011068.webp');
+    min-height:60vh ;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    font-family: 'Roboto Slab', serif;
+}
+#myprogress{
+    width:50vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songitem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    width: 440px;
+    color: black;
+    margin:12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.songitem img{
+    width: 38px;
+    margin:0 23px;
+   
+}
+.timestamp{
+    margin:0 23px;
+}
+
+.songitemcontainer{
+    margin-top: 75px;
+}
+.songinfo{
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    left:24vw;
+   
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity is ease-in;
+}
